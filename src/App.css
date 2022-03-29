@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 30rem;
+  background: #00ADB5;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+button{
+  border:none;
+  background: #EEEEEE;
+  width: 10rem;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}

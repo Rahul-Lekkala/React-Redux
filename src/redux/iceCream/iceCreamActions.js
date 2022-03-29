@@ -1,6 +1,6 @@
 import { BUY_ICECREAM } from "../actionTypes";
 
-export default buyIceCream=()=>{
+export const buyIceCream=()=>{
     return {
         type: BUY_ICECREAM
     }
